@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "bestApp",
+    "slug": "bestApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/beer.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/beer.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/beer.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/beer.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "990a88d8-eb56-44d0-901e-819c7fafd696"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/990a88d8-eb56-44d0-901e-819c7fafd696"
+    }
+  }
+}
